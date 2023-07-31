@@ -10,6 +10,7 @@
   - [Steps:](#steps)
     - [Start from Docker Hub](#start-from-docker-hub)
     - [Building the Image from the Repository](#building-the-image-from-the-repository)
+    - [Building using docker compose](#building-using-docker-compose)
 <!-- index-end -->
 
 ## Description
