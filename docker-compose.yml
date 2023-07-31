@@ -1,0 +1,14 @@
+services:
+  kali-linux:
+    build: .
+    container_name: docker-kalilinux
+    hostname: docker-kalilinux
+    restart: unless-stopped
+    tty: true
+    mem_limit: 8000M
+    network_mode: "host"
+  #  ports:
+  #   - 127.0.0.1:33909:33909
+  #   - 127.0.0.1:2222:2222
+ #   networks:
+ #    - docker_network

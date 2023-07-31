@@ -109,4 +109,11 @@ If you do not want to use the same network as your host, use the following comma
 
     docker run -d -it --name kali-linux -p 127.0.0.1:33909:33909 -p 127.0.0.1:2222:2222 docker-kalilinux
 
+#### Building using docker compose
+Docker Compose can also be used to build the image.
+
+    docker compose -f docker-compose.yml up -d
+
+
+
 I hope this information is helpful for your pentesting activities and helps you improve your cybersecurity skills. Good luck! 🔒🔍🛡️
